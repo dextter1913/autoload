@@ -23,11 +23,40 @@
                     <label for="nombre">Nombre:</label>
                     <input type="text" name="nombre" id="nombre" class="form-control">
                     <label for="apellido">Apellido</label>
-                    <input type="text" name="apellido" id="apellido" class="form-control"><br/>
+                    <input type="text" name="apellido" id="apellido" class="form-control"><br />
                     <input type="submit" value="Insertar" class="btn btn-outline-danger btn-sm">
                 </form>
             </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-4"></div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-4 table-responsive">
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th>
+                                <center>id</center>
+                            </th>
+                            <th>
+                                <center>nombre</center>
+                            </th>
+                            <th>
+                                <center>apellido</center>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <center></center>
+                            </td>
+                            <td>
+                                <center></center>
+                            </td>
+                            <td>
+                                <center></center>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
             <div class="col-12 col-sm-6 col-md-4 col-lg-4"></div>
         </div>
     </div>

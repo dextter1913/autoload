@@ -1,10 +1,11 @@
 <?php 
+require_once 'persona.php';
 require_once 'conexion.php';
-class insertar  
+class insertar  extends persona
 {
-    private $id;
-    private $nombre;
-    private $apellido;
+    //private $id;
+    //private $nombre;
+    //private $apellido;
 
     public function __construct($id,$nombre,$apellido) {
         $this->id = $id;
@@ -18,7 +19,6 @@ class insertar
         $apellido = $this->apellido;
         $conexion = new conexion();
         $conexion->EstablecerConexion()->query("INSERT INTO persona(id, nombre, apellido)   VALUES('$id','$nombre','$apellido')");
-        echo "se registro datos correctamente";
     }
 
 
