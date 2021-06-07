@@ -7,7 +7,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-12 col-sm-6 col-md-4 col-lg-4">
-                <form action="back/insert.php" method="post" class="form-control">
+                <form action="back/insert.php" method="post">
                     <label for="id">ID:</label>
                     <input type="text" name="id" id="id" class="form-control">
                     <label for="nombre">Nombre:</label>
