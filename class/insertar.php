@@ -3,10 +3,6 @@ require_once 'persona.php';
 require_once 'conexion.php';
 class insertar  extends persona
 {
-    //private $id;
-    //private $nombre;
-    //private $apellido;
-
     public function __construct($id,$nombre,$apellido) {
         $this->id = $id;
         $this->nombre = $nombre;
