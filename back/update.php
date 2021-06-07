@@ -20,7 +20,7 @@ require_once '../class/autoload.php';
         <div class="row">
             <div class="col-12 col-sm-6 col-md-4 col-lg-4"></div>
             <div class="col-12 col-sm-6 col-md-4 col-lg-4">
-                <form action="update.php?id=<?= $_GET['id']; ?>" method="post" class="form-control">
+                <form action="update.php?id=<?= $_GET['id']; ?>" method="post">
                     <label for="nombre">Nombre</label>
                     <input type="text" name="nombre" id="nombre" class="form-control">
                     <label for="apellido">apellido</label>
