@@ -1,9 +1,7 @@
 <?php 
-//require_once 'persona.php';
 require_once 'autoload.php';
-class  eliminar //extends persona
+class  eliminar extends persona
 {
-    private $id;
 
     public function __construct($id) {
         $this->id = $id;
