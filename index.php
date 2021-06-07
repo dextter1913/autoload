@@ -1,5 +1,5 @@
 <?php
-require_once 'class/seleccionar.php';
+require_once 'class/autoload.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">

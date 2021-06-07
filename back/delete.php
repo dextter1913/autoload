@@ -1,5 +1,5 @@
 <?php
-require_once '../class/eliminar.php';
+require_once '../class/autoload.php';
 foreach ($_GET['id'] as $id) {
     $eliminar = new eliminar($id);
     $eliminar->eliminarpersona();

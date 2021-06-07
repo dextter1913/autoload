@@ -1,6 +1,6 @@
 <?php 
 //require_once 'persona.php';
-require_once 'conexion.php';
+require_once 'autoload.php';
 class  eliminar //extends persona
 {
     private $id;

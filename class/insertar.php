@@ -1,6 +1,5 @@
 <?php 
-require_once 'persona.php';
-require_once 'conexion.php';
+require_once 'autoload.php';
 class insertar  extends persona
 {
     public function __construct($id,$nombre,$apellido) {
